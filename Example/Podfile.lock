@@ -1,0 +1,27 @@
+PODS:
+  - Nimble (8.0.9)
+  - Quick (2.2.1)
+  - SwiftSeedCipher (0.1.0)
+
+DEPENDENCIES:
+  - Nimble (~> 8.0.7)
+  - Quick (~> 2.2.0)
+  - SwiftSeedCipher (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  SwiftSeedCipher:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nimble: 98b888285a615fd34f20e61753cf58ea1402bde4
+  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+  SwiftSeedCipher: 0af96de104857472cef713c5aa35a3e4ae0a980f
+
+PODFILE CHECKSUM: 86e406abf8f928fcde6abae2ad0ec3668482a414
+
+COCOAPODS: 1.10.0

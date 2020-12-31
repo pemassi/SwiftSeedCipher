@@ -30,9 +30,9 @@
 /* Begin PBXFileReference section */
 		1053DEFDC7769485F11C180B /* Pods_SwiftSeedCipher_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftSeedCipher_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CDE34B278034A87840FEA25 /* Pods-SwiftSeedCipher_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSeedCipher_Example.release.xcconfig"; path = "Target Support Files/Pods-SwiftSeedCipher_Example/Pods-SwiftSeedCipher_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3B44865D377C350CC54DFA1E /* SwiftSeedCipher.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftSeedCipher.podspec; path = ../SwiftSeedCipher.podspec; sourceTree = "<group>"; };
+		3B44865D377C350CC54DFA1E /* SwiftSeedCipher.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftSeedCipher.podspec; path = ../SwiftSeedCipher.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4174BD6270A30D3B016A0716 /* Pods-SwiftSeedCipher_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSeedCipher_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftSeedCipher_Tests/Pods-SwiftSeedCipher_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5E1718FDD089A4B3259A8033 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5E1718FDD089A4B3259A8033 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwiftSeedCipher_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSeedCipher_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		730D1BA182BDA48342AD1239 /* Pods_SwiftSeedCipher_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftSeedCipher_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC77FEA7B9D691965DF19B7E /* Pods-SwiftSeedCipher_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSeedCipher_Example.debug.xcconfig"; path = "Target Support Files/Pods-SwiftSeedCipher_Example/Pods-SwiftSeedCipher_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D0DBFEA548CCA65FD6FE67E8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D0DBFEA548CCA65FD6FE67E8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DB49D58502C9C9E79347A720 /* Pods-SwiftSeedCipher_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSeedCipher_Tests.release.xcconfig"; path = "Target Support Files/Pods-SwiftSeedCipher_Tests/Pods-SwiftSeedCipher_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				4174BD6270A30D3B016A0716 /* Pods-SwiftSeedCipher_Tests.debug.xcconfig */,
 				DB49D58502C9C9E79347A720 /* Pods-SwiftSeedCipher_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -214,10 +213,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = CK484L4538;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = CK484L4538;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -228,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -499,6 +501,7 @@
 			baseConfigurationReference = CC77FEA7B9D691965DF19B7E /* Pods-SwiftSeedCipher_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CK484L4538;
 				INFOPLIST_FILE = SwiftSeedCipher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -514,6 +517,7 @@
 			baseConfigurationReference = 2CDE34B278034A87840FEA25 /* Pods-SwiftSeedCipher_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CK484L4538;
 				INFOPLIST_FILE = SwiftSeedCipher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -528,6 +532,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4174BD6270A30D3B016A0716 /* Pods-SwiftSeedCipher_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = CK484L4538;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -550,6 +555,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DB49D58502C9C9E79347A720 /* Pods-SwiftSeedCipher_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = CK484L4538;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

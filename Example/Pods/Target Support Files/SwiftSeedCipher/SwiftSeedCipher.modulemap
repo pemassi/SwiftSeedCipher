@@ -1,0 +1,6 @@
+framework module SwiftSeedCipher {
+  umbrella header "SwiftSeedCipher-umbrella.h"
+
+  export *
+  module * { export * }
+}
